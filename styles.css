@@ -26,7 +26,7 @@ body {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     z-index: 1000;
-    padding: 1.5rem 0;
+    padding: 1.2rem 0;
     transition: all 0.3s ease;
 }
 
@@ -42,14 +42,14 @@ body {
 .nav-logo {
     display: flex;
     align-items: center;
-    font-size: 2.8rem;
+    font-size: 1.8rem;
     font-weight: 700;
     color: #1a1a1a;
 }
 
 .logo-icon {
-    width: 50px;
-    height: 50px;
+    width: 36px;
+    height: 36px;
     margin-right: 0.5rem;
     filter: drop-shadow(0 0 8px rgba(0, 212, 255, 0.3));
     transition: all 0.3s ease;
@@ -63,14 +63,14 @@ body {
 .nav-menu {
     display: flex;
     list-style: none;
-    gap: 3rem;
+    gap: 2.2rem;
 }
 
 .nav-link {
     text-decoration: none;
     color: #333;
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     transition: color 0.3s ease;
 }
 
@@ -879,14 +879,14 @@ section {
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 90px;
+        top: 75px;
         flex-direction: column;
         background-color: white;
         width: 100%;
         text-align: center;
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-        padding: 3rem 0;
+        padding: 2.5rem 0;
     }
 
     .nav-menu.active {
